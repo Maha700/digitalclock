@@ -1,0 +1,298 @@
+body{
+    width:1000px;
+    height:900px;
+    background-color: #3D087B;
+    margin: 200px;
+    border: 10px solid transparent;   
+}
+.clock{
+    top: -150px;
+    right: 70px;
+    position: relative;
+}
+.time{
+    width:500px;
+    height: 200px;
+    top:-220px;
+    left:650px;
+    position: relative;
+}
+.time2{
+    background-color: #FFFFFF;
+    opacity:0.2;
+    border-radius: 10px;
+    width: 379px;
+    height: 130px;
+}
+.time4{
+    background-color: #FFFFFF;
+    opacity:0.2;
+    border-radius: 10px;
+    width: 419px;
+    height: 130px; 
+    z-index: 2;
+    top:-140px;
+    right:20px;
+    position: relative;
+
+}
+.time5{
+    width: 536px;
+    height: 130px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    z-index: 3;
+    top:-280px;
+    right:90px;
+    position: relative;
+}
+.time7{
+    width: 458px;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    top:20px;
+    left:30px;
+    position: relative;
+}
+.time7 > .one{
+    font-size: 17px;
+    font-weight: bolder;
+    color: #3D087B;
+    font-family: 'Manrope', sans-serif;
+    text-align: left;
+    padding: 5px;
+    top: 15px;
+    left: 5px;
+    position: relative;
+    margin-right: 20px;
+}
+.time7 > .two{
+    width: 70px;
+    height: 65px;
+    background-image: url(./timeline.svg);
+    border-radius: 5px;
+    font-size: 21px;
+    text-align: center;
+    padding-top: 20px;
+    color: #3D087B;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.time7 > .three{
+    width: 70px;
+    height: 62px;
+    background-image: url(./AM_svg.svg);
+    border-radius: 5px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-left: 2px;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.time7 > span{
+    top:40px;
+    position: relative;
+}
+.icons{
+    width: 530px;
+    height: 320px;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 50px;
+    top:-300px;
+    left:-140px;
+    position: relative;
+}
+.icon1{
+    width: 500px;
+    height: 40px;
+    background-color: #FFFFFF;
+}
+.icon1 > span{
+    font-size: 15px;
+    top:-14px;
+    position: relative;
+    padding-left:10px ;
+    color: #3D087B;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+}
+.icon1 > select{
+    width:260px;
+    height: 40px;
+    left:50px;
+    top:-8px;
+    position: relative;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #3D087BDE;
+    border: 1px solid #EDEDED;
+}
+.emp1{
+    width: 0;
+    height: 45px;
+    border: 1px solid;
+    left:19px;
+    position: relative;
+    opacity: 0.2;
+}
+.icon2{
+    width: 500px;
+    height: 40px;
+    background-color: #FFFFFF;
+}
+.icon2 > span{
+    font-size: 15px;
+    top:-14px;
+    position: relative;
+    padding-left:10px ;
+    color: #3D087B;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+}
+.icon2 > select{
+    width:260px;
+    height: 40px;
+    left:70px;
+    top:-8px;
+    position: relative;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #3D087BDE;
+    border: 1px solid #EDEDED;
+}
+.icon3{
+    width: 500px;
+    height: 40px;
+    background-color: #FFFFFF;
+}
+.icon3 > span{
+    font-size: 15px;
+    top:-14px;
+    position: relative;
+    padding-left:10px ;
+    color: #3D087B;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+}
+.icon3 > select{
+    width:260px;
+    height: 40px;
+    left:83px;
+    top:-8px;
+    position: relative;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #3D087BDE;
+    border: 1px solid #EDEDED;
+}
+.icon4{
+    width: 500px;
+    height: 40px;
+    background-color: #FFFFFF;
+}
+.icon4 > span{
+    font-size: 15px;
+    top:-14px;
+    position: relative;
+    padding-left:10px ;
+    color: #3D087B;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+}
+.icon4 > select{
+    width:260px;
+    height: 40px;
+    left:75px;
+    top:-8px;
+    position: relative;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #3D087BDE;
+    border: 1px solid #EDEDED;
+}
+
+.grab{
+    width: 492px;
+    height: 70px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding:20px;
+    padding-top: 2px;
+    top:-630px;
+    left:570px;
+    position: relative;
+}
+.grab > p{
+    text-align: center;
+    color:#8E53F0; 
+    font-size: 25px; 
+    font-weight: bolder; 
+    font-family: 'Baumans', cursive;
+}
+.component{
+    top:-600px;
+    left:570px;
+    position: relative; 
+}
+.wake{
+     width: 575px;
+     height: 65px;
+     padding: 15px;
+     background-color: #FFFFFF;
+     opacity: 0.2;
+     border:1px solid #EDEDED ;
+     border-radius: 10px;
+     top:-700px;
+     left:-100px;
+     position: relative;
+}
+.wake > h1{
+    font-size: 35px;
+    text-align: left;
+    font-family: 'Baumans', cursive;
+    margin-top: 4px;
+    color: black
+}
+.alarm > button{
+    width: 290px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 5px;
+    background: transparent linear-gradient(113deg, #6E54EC 20%, #CB52F8 40%, #FC5EFF 81%); 
+    top:-680px;
+    left:-100px;
+    position: relative;
+}
+button > span{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+    margin-top: 10px;
+}
+.note{ 
+    width: 253px;
+    height: 117px;
+    background-color: #FFFFFF;
+    opacity: 0.2;
+    border-radius: 5px;
+    border:1px solid #EDEDED;
+    padding: 8px;
+    top:-740px;
+    left:240px;
+    position: relative;
+}
+.note > p{
+    color:black;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: 'Manrope', sans-serif;
+    margin-top: 2px;
+}
